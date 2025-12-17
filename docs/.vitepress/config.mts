@@ -5,12 +5,12 @@ export default defineConfig({
   description: "前端算法 · 手撕 · 八股文",
   base: '/frontend-interview/',
   head: [['link', { rel: 'icon', href: '/logo.svg' }]],
+  markdown: {
+    math: true
+  },
 
   themeConfig: {
     logo: '/logo.svg',
-    markdown: {
-      math: true
-    },
     nav: [
       { text: '首页', link: '/' },
       { text: '算法', link: '/dsa/', activeMatch: '/dsa/' },
