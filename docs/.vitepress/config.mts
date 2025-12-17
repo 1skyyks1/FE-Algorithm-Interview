@@ -8,6 +8,7 @@ export default defineConfig({
   markdown: {
     math: true
   },
+  cleanUrls: true,
 
   themeConfig: {
     logo: '/logo.svg',
