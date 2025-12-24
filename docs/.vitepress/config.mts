@@ -9,6 +9,7 @@ export default defineConfig({
     math: true
   },
   cleanUrls: true,
+  lastUpdated: true,
 
   themeConfig: {
     logo: '/logo.svg',
@@ -46,7 +47,9 @@ export default defineConfig({
             { text: '2379. 得到 K 个黑块的最少涂色次数', link: '/dsa/leetcode/2379-minimum-recolors-to-get-k-consecutive-black-blocks' },
             { text: '2841. 几乎唯一子数组的最大和', link: '/dsa/leetcode/2841-maximum-sum-of-almost-unique-subarray' },
             { text: '1423. 可获得的最大点数', link: '/dsa/leetcode/1423-maximum-points-you-can-obtain-from-cards' },
-            { text: '3090. 每个字符最多出现两次的最长子字符串', link: '/dsa/leetcode/3090-maximum-length-substring-with-two-occurrences' }
+            { text: '1493. 删掉一个元素以后全为 1 的最长子数组', link: '/dsa/leetcode/1493-longest-subarray-of-1s-after-deleting-one-element' },
+            { text: '3090. 每个字符最多出现两次的最长子字符串', link: '/dsa/leetcode/3090-maximum-length-substring-with-two-occurrences' },
+            { text: '3634. 使数组平衡的最少移除数目', link: '/dsa/leetcode/3634-minimum-removals-to-balance-array' }
           ]
         },
         {
