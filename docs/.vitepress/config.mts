@@ -52,9 +52,11 @@ export default defineConfig({
             { text: '1658. 将 x 减到 0 的最小操作数', link: '/dsa/leetcode/1658-minimum-operations-to-reduce-x-to-zero' },
             { text: '2024. 考试的最大困扰度', link: '/dsa/leetcode/2024-maximize-the-confusion-of-an-exam' },
             { text: '2090. 半径为 k 的子数组平均值', link: '/dsa/leetcode/2090-k-radius-subarray-averages' },
+            { text: '2302. 统计得分小于 K 的子数组数目', link: '/dsa/leetcode/2302-count-subarrays-with-score-less-than-k' },
             { text: '2379. 得到 K 个黑块的最少涂色次数', link: '/dsa/leetcode/2379-minimum-recolors-to-get-k-consecutive-black-blocks' },
             { text: '2841. 几乎唯一子数组的最大和', link: '/dsa/leetcode/2841-maximum-sum-of-almost-unique-subarray' },
             { text: '3090. 每个字符最多出现两次的最长子字符串', link: '/dsa/leetcode/3090-maximum-length-substring-with-two-occurrences' },
+            { text: '3258. 统计满足 K 约束的子字符串数量 I', link: '/dsa/leetcode/3258-count-substrings-that-satisfy-k-constraint-i' },
             { text: '3634. 使数组平衡的最少移除数目', link: '/dsa/leetcode/3634-minimum-removals-to-balance-array' }
           ]
         },
