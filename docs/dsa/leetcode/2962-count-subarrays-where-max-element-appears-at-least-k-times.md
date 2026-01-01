@@ -1,10 +1,10 @@
-# 2692. 统计最大元素出现至少 K 次的子数组
+# 2962. 统计最大元素出现至少 K 次的子数组
 
 > 题目链接：<https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/>
 
 ## 代码
 
-<<< @/code/dsa/leetcode/2692-count-subarrays-where-max-element-appears-at-least-k-times.ts
+<<< @/code/dsa/leetcode/2962-count-subarrays-where-max-element-appears-at-least-k-times.ts
 
 ## 思路
 
