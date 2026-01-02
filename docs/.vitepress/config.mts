@@ -55,12 +55,14 @@ export default defineConfig({
             { text: '2090. 半径为 k 的子数组平均值', link: '/dsa/leetcode/2090-k-radius-subarray-averages' },
             { text: '2302. 统计得分小于 K 的子数组数目', link: '/dsa/leetcode/2302-count-subarrays-with-score-less-than-k' },
             { text: '2379. 得到 K 个黑块的最少涂色次数', link: '/dsa/leetcode/2379-minimum-recolors-to-get-k-consecutive-black-blocks' },
+            { text: '2537. 统计好子数组的数目', link: '/dsa/leetcode/2537-count-the-number-of-good-subarrays' },
             { text: '2762. 不间断子数组', link: '/dsa/leetcode/2762-continuous-subarrays' },
             { text: '2799. 统计完全子数组的数目', link: '/dsa/leetcode/2799-count-complete-subarrays-in-an-array' },
             { text: '2841. 几乎唯一子数组的最大和', link: '/dsa/leetcode/2841-maximum-sum-of-almost-unique-subarray' },
             { text: '2962. 统计最大元素出现至少 K 次的子数组', link: '/dsa/leetcode/2962-count-subarrays-where-max-element-appears-at-least-k-times' },
             { text: '3090. 每个字符最多出现两次的最长子字符串', link: '/dsa/leetcode/3090-maximum-length-substring-with-two-occurrences' },
             { text: '3258. 统计满足 K 约束的子字符串数量 I', link: '/dsa/leetcode/3258-count-substrings-that-satisfy-k-constraint-i' },
+            { text: '3298. 统计重新排列后包含另一个字符串的子字符串数目 II', link: '/dsa/leetcode/3298-count-substrings-that-can-be-rearranged-to-contain-a-string-ii' },
             { text: '3325. 字符至少出现 K 次的子字符串 I', link: '/dsa/leetcode/3325-count-substrings-with-k-frequency-characters-i' },
             { text: '3634. 使数组平衡的最少移除数目', link: '/dsa/leetcode/3634-minimum-removals-to-balance-array' }
           ]
