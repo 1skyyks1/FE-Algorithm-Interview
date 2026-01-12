@@ -3,7 +3,7 @@
  * https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/
  */
 
-function numberOfSubstrings(s: string): number {
+function numberOfSubstrings1(s: string): number {
     let left = 0;
     let res = 0;
     const map = new Map<string, number>();
