@@ -2,7 +2,7 @@ import { shallowRef, watch, computed, toValue, defineComponent, ref, watchEffect
 import { ssrRenderTeleport, ssrRenderAttr, ssrRenderClass, ssrIncludeBooleanAttr, ssrRenderList, ssrInterpolate } from "vue/server-renderer";
 import { t as toArray, u as unrefElement, n as notNullish, a as tryOnScopeDispose, b as useData, c as computedAsync, d as useSessionStorage, e as useLocalStorage, f as debouncedWatch, o as onKeyStroke, g as useRouter, h as createSearchTranslate, i as useEventListener, j as useScrollLock, k as dataSymbol, p as pathToFile, l as inBrowser, m as escapeRegExp } from "./app.js";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
-const localSearchIndex = { "root": () => import("./@localSearchIndexroot.P2cIl1l0.js") };
+const localSearchIndex = { "root": () => import("./@localSearchIndexroot.BZnX-Gea.js") };
 var candidateSelectors = ["input:not([inert])", "select:not([inert])", "textarea:not([inert])", "a[href]:not([inert])", "button:not([inert])", "[tabindex]:not(slot):not([inert])", "audio[controls]:not([inert])", "video[controls]:not([inert])", '[contenteditable]:not([contenteditable="false"]):not([inert])', "details>summary:first-of-type:not([inert])", "details:not([inert])"];
 var candidateSelector = /* @__PURE__ */ candidateSelectors.join(",");
 var NoElement = typeof Element === "undefined";

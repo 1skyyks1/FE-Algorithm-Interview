@@ -1,7 +1,7 @@
 import { ssrRenderAttrs, ssrRenderStyle } from "vue/server-renderer";
 import { useSSRContext } from "vue";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
-const __pageData = JSON.parse('{"title":"8. 手写深拷贝","description":"","frontmatter":{},"headers":[],"relativePath":"dsa/interview/8-deep-clone.md","filePath":"dsa/interview/8-deep-clone.md","lastUpdated":0}');
+const __pageData = JSON.parse('{"title":"8. 手写深拷贝","description":"","frontmatter":{},"headers":[],"relativePath":"dsa/interview/8-deep-clone.md","filePath":"dsa/interview/8-deep-clone.md","lastUpdated":1774722077000}');
 const _sfc_main = { name: "dsa/interview/8-deep-clone.md" };
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="_8-手写深拷贝" tabindex="-1">8. 手写深拷贝 <a class="header-anchor" href="#_8-手写深拷贝" aria-label="Permalink to “8. 手写深拷贝”">​</a></h1><h2 id="题目" tabindex="-1">题目 <a class="header-anchor" href="#题目" aria-label="Permalink to “题目”">​</a></h2><p>实现一个 <code>deepClone</code> 函数，能够递归复制对象和数组，并处理循环引用。</p><h2 id="代码" tabindex="-1">代码 <a class="header-anchor" href="#代码" aria-label="Permalink to “代码”">​</a></h2><div class="language-js"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark" style="${ssrRenderStyle({ "--shiki-light": "#24292e", "--shiki-dark": "#e1e4e8", "--shiki-light-bg": "#fff", "--shiki-dark-bg": "#24292e" })}" tabindex="0" dir="ltr"><code><span class="line"><span style="${ssrRenderStyle({ "--shiki-light": "#6A737D", "--shiki-dark": "#6A737D" })}">// 手写深拷贝</span></span>

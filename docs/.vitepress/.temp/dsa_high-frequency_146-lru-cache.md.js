@@ -1,8 +1,8 @@
 import { ssrRenderAttrs, ssrRenderStyle } from "vue/server-renderer";
 import { useSSRContext } from "vue";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
-const __pageData = JSON.parse('{"title":"146. LRU 缓存","description":"","frontmatter":{},"headers":[],"relativePath":"dsa/hot/146-lru-cache.md","filePath":"dsa/hot/146-lru-cache.md","lastUpdated":1772900966000}');
-const _sfc_main = { name: "dsa/hot/146-lru-cache.md" };
+const __pageData = JSON.parse('{"title":"146. LRU 缓存","description":"","frontmatter":{},"headers":[],"relativePath":"dsa/high-frequency/146-lru-cache.md","filePath":"dsa/high-frequency/146-lru-cache.md","lastUpdated":0}');
+const _sfc_main = { name: "dsa/high-frequency/146-lru-cache.md" };
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="_146-lru-缓存" tabindex="-1">146. LRU 缓存 <a class="header-anchor" href="#_146-lru-缓存" aria-label="Permalink to “146. LRU 缓存”">​</a></h1><blockquote><p>题目链接：<a href="https://leetcode.cn/problems/lru-cache/" target="_blank" rel="noreferrer">https://leetcode.cn/problems/lru-cache/</a></p></blockquote><h2 id="代码" tabindex="-1">代码 <a class="header-anchor" href="#代码" aria-label="Permalink to “代码”">​</a></h2><div class="language-ts"><button title="Copy Code" class="copy"></button><span class="lang">ts</span><pre class="shiki shiki-themes github-light github-dark" style="${ssrRenderStyle({ "--shiki-light": "#24292e", "--shiki-dark": "#e1e4e8", "--shiki-light-bg": "#fff", "--shiki-dark-bg": "#24292e" })}" tabindex="0" dir="ltr"><code><span class="line"><span style="${ssrRenderStyle({ "--shiki-light": "#D73A49", "--shiki-dark": "#F97583" })}">class</span><span style="${ssrRenderStyle({ "--shiki-light": "#6F42C1", "--shiki-dark": "#B392F0" })}"> LRUCache</span><span style="${ssrRenderStyle({ "--shiki-light": "#24292E", "--shiki-dark": "#E1E4E8" })}"> {</span></span>
 <span class="line"><span style="${ssrRenderStyle({ "--shiki-light": "#E36209", "--shiki-dark": "#FFAB70" })}">    capacity</span><span style="${ssrRenderStyle({ "--shiki-light": "#D73A49", "--shiki-dark": "#F97583" })}">:</span><span style="${ssrRenderStyle({ "--shiki-light": "#005CC5", "--shiki-dark": "#79B8FF" })}"> number</span><span style="${ssrRenderStyle({ "--shiki-light": "#24292E", "--shiki-dark": "#E1E4E8" })}">;</span></span>
@@ -46,7 +46,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("dsa/hot/146-lru-cache.md");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("dsa/high-frequency/146-lru-cache.md");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
 const _146LruCache = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);

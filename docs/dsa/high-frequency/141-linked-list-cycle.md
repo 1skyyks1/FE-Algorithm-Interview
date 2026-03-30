@@ -4,7 +4,7 @@
 
 ## 代码
 
-<<< @/code/dsa/hot/141-linked-list-cycle.ts
+<<< @/code/dsa/high-frequency/141-linked-list-cycle.ts
 
 ## 思路
 

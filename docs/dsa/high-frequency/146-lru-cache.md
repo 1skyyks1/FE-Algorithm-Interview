@@ -4,7 +4,7 @@
 
 ## 代码
 
-<<< @/code/dsa/hot/146-lru-cache.ts
+<<< @/code/dsa/high-frequency/146-lru-cache.ts
 
 ## 思路
 

@@ -1,7 +1,7 @@
 import { ssrRenderAttrs, ssrRenderStyle } from "vue/server-renderer";
 import { useSSRContext } from "vue";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
-const __pageData = JSON.parse('{"title":"7. 控制并发请求","description":"","frontmatter":{},"headers":[],"relativePath":"dsa/interview/7-request-limit.md","filePath":"dsa/interview/7-request-limit.md","lastUpdated":0}');
+const __pageData = JSON.parse('{"title":"7. 控制并发请求","description":"","frontmatter":{},"headers":[],"relativePath":"dsa/interview/7-request-limit.md","filePath":"dsa/interview/7-request-limit.md","lastUpdated":1774722077000}');
 const _sfc_main = { name: "dsa/interview/7-request-limit.md" };
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="_7-控制并发请求" tabindex="-1">7. 控制并发请求 <a class="header-anchor" href="#_7-控制并发请求" aria-label="Permalink to “7. 控制并发请求”">​</a></h1><blockquote><p>来源：百度二面</p></blockquote><h2 id="题目" tabindex="-1">题目 <a class="header-anchor" href="#题目" aria-label="Permalink to “题目”">​</a></h2><p>实现一个并发控制器，限制同一时间最多只能有 <code>n</code> 个异步任务同时执行。</p><h2 id="代码" tabindex="-1">代码 <a class="header-anchor" href="#代码" aria-label="Permalink to “代码”">​</a></h2><div class="language-js"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki shiki-themes github-light github-dark" style="${ssrRenderStyle({ "--shiki-light": "#24292e", "--shiki-dark": "#e1e4e8", "--shiki-light-bg": "#fff", "--shiki-dark-bg": "#24292e" })}" tabindex="0" dir="ltr"><code><span class="line"><span style="${ssrRenderStyle({ "--shiki-light": "#6A737D", "--shiki-dark": "#6A737D" })}">// 控制并发请求</span></span>
